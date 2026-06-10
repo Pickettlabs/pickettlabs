@@ -15,7 +15,10 @@ export default function Page() {
         <div key={index} style={{ marginTop: 20 }}>
           <h3>{beat.title}</h3>
 
-          <audio controls src={beat.url}></audio>
+          {/* AUDIO PLAYER */}
+          <audio controls>
+            <source src={beat.url} type="audio/mpeg" />
+          </audio>
 
           <p>${beat.price}</p>
 
