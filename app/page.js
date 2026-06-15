@@ -17,7 +17,7 @@ export default function Page() {
 
           {/* ✅ FINAL FIXED AUDIO PLAYER */}
           <audio controls>
-            <source src="mybeat.mp3" type="audio/mpeg">
+            <source src={beat.url} type="audio/mpeg" />
           </audio>
 
           <p>${beat.price}</p>
