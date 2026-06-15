@@ -16,7 +16,7 @@ export default function Page() {
           <h3>{beat.title}</h3>
 
           {/* ✅ THIS LINE FIXES YOUR PLAYER */}
-          <audio controls src="/beats/mybeat.mp3"></audio>
+          {beat.url}</audio>
 
           <p>${beat.price}</p>
 
