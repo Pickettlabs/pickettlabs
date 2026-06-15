@@ -16,7 +16,7 @@ export default function Page() {
           <h3>{beat.title}</h3>
 
           {/* ✅ CORRECT AUDIO PLAYER */}
-          <audio controls src={beat.url}</audio>
+          <audio controls src={beat.url}></audio>
 
           <p>${beat.price}</p>
 
